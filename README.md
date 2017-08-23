@@ -1,9 +1,9 @@
 # MUGI.CORE
 The backend API Service of MUGI Project
 
-## START
+## START DEVELOP
 
-To start your develop, you should have:
+To start your development, you should have configured the following environments:
 
 ### Git (latest)
 
@@ -40,3 +40,7 @@ Check version:
 ➜ python3 -m django --version
 1.11.4
 ```
+
+## Reference
+
+Learning how to wrtie markdown on github: https://guides.github.com/features/mastering-markdown/
