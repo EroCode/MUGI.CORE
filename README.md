@@ -1,7 +1,7 @@
 # MUGI.CORE
 The backend API Service of MUGI Project
 
-## START DEVELOP
+## Start Development
 
 To start your development, you should have configured the following environments:
 
