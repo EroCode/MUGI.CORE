@@ -32,11 +32,13 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    # 'django.contrib.sites',
+    'registration',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +56,7 @@ ROOT_URLCONF = 'MUGICORE.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -118,3 +120,22 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+###
+
+# User Reg
+
+ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window
+REGISTRATION_AUTO_LOGIN = True # Automatically log the user in.
+
+# Mail
+
+# send e-mail
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+EMAIL_HOST = 'smtp.exmail.qq.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'publicmail1@loli.gs'
+EMAIL_HOST_PASSWORD = 'ServerPass0'
+DEFAULT_FROM_EMAIL = 'publicmail1@loli.gs'
