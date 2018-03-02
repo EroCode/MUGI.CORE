@@ -1,6 +1,23 @@
 # MUGI.CORE
 The backend API Service of MUGI Project
 
+## Design
+
+### Organ
+
+* MUGICORE // Project -> Apps
+	* MUGICORE // Site
+	* WIKI // Hall Info
+	* USER // User Activy
+
+### Utils
+
+* Django
+	* `django-registration` https://github.com/macropin/django-registration
+	* `django-activity-stream` https://github.com/justquick/django-activity-stream
+
+---
+
 ## Start Development
 
 To start your development, you should have configured the following environments:
