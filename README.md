@@ -16,6 +16,14 @@ The backend API Service of MUGI Project
 	* `django-registration` https://github.com/macropin/django-registration
 	* `django-activity-stream` https://github.com/justquick/django-activity-stream
 
+```bash
+sudo pip install django
+sudo pip install djangorestframework
+sudo pip install markdown
+sudo pip install django-filter
+sudo pip install django-registration-redux
+```
+
 ---
 
 ## Start Development
